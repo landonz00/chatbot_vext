@@ -15,7 +15,7 @@ st.title("Welcome to the Four Seasons' HR Assistant!")
 #input form
 with st.form("question_form"):
         user_input = st.text_input("What can I help you with today?")
-        submit = st.form_submit_button("Send")
+        submit = st.form_submit_button("Enter")
 
 #display response
 if submit and user_input.lower() != 'exit':
